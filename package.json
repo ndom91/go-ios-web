@@ -1,0 +1,83 @@
+{
+  "name": "go-ios-web",
+  "description": "Go-iOS Web App",
+  "author": [
+    "daneilpaulus",
+    "ndom91 <yo@ndo.dev>"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "go-ios",
+    "nuxt3"
+  ],
+  "packageManager": "pnpm@7.5.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint --fix **/*.{vue,ts}",
+    "format": "prettier --write **/*.{vue,ts}"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@css-render/vue3-ssr": "^0.15.11",
+    "@nuxtjs/tailwindcss": "^5.3.2",
+    "@vueuse/nuxt": "^9.1.1",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lint-staged": "^13.0.3",
+    "naive-ui": "^2.32.2",
+    "nuxt": "3.0.0-rc.8",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "simple-git-hooks": "^2.8.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:nuxt/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2021": true
+    },
+    "rules": {
+      "prettier/prettier": "error",
+      "@next/next/no-img-element": "off"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "printWidth": 120,
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx commitlint --edit",
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,json}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
+  }
+}
