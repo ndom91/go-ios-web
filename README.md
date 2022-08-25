@@ -2,25 +2,33 @@
 
 Web application for [go-ios](https://github.com/danielpaulus/go-ios).
 
+---
+
+Based on the following stack:
+
+1. [Nuxt 3](https://v3.nuxtjs.org/)
+2. [TailwindCSS](https://tailwindcss.com)
+3. [NaiveUI](https://www.naiveui.com)
+
 ## 🚧 Setup
 
 1. Install the dependencies.
 
 ```bash
 # yarn
-yarn install
+$ yarn install
 
 # npm
-npm install
+$ npm install
 
 # pnpm
-pnpm install --shamefully-hoist
+$ pnpm install --shamefully-hoist
 ```
 
 2. Start the dev server.
 
 ```bash
-pnpm dev
+$ pnpm dev
 ```
 
 3. You will then have the application running under `http://localhost:3000`. 
