@@ -1,10 +1,10 @@
 <template>
-  <main class="flex h-full w-full max-w-7xl mx-auto">
-    <aside class="flex flex-col h-full max-w-5xl">
-      <Nav />
-    </aside>
-    <slot />
-  </main>
+  <div>
+    <Nav />
+    <main class="w-full bg-green-500 flex flex-col">
+      <slot />
+    </main>
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts"></script>

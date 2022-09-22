@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import { NButton } from 'naive-ui'
+// import { NButton } from 'naive-ui'
 
-definePageMeta({
-  layout: 'default',
-})
 useHead({
   title: 'go-ios web',
 })
 </script>
 
 <template>
-  <div>Welcome!</div>
-  <NButton>BTN</NButton>
+  <section class="h-screen w-full flex flex-col justify-center items-start bg-red-400">
+    <div>Welcome!</div>
+    <!-- <NButton>BTN</NButton> -->
+  </section>
 </template>

@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
-  '@css-render/vue3-ssr': ^0.15.11
   '@nuxtjs/tailwindcss': ^5.3.3
   '@vueuse/nuxt': ^9.1.1
   eslint: ^8.22.0
@@ -21,7 +20,6 @@ specifiers:
 devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
-  '@css-render/vue3-ssr': 0.15.11
   '@nuxtjs/tailwindcss': 5.3.3
   '@vueuse/nuxt': 9.1.1
   eslint: 8.22.0
