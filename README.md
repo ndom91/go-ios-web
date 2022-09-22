@@ -1,27 +1,18 @@
-# `go-ios` Web App
+# 📱 `go-ios` Web App
 
-Web application for [go-ios](https://github.com/danielpaulus/go-ios).
-
----
+Web frontend for [go-ios](https://github.com/danielpaulus/go-ios).
 
 Based on the following stack:
 
-1. [Nuxt 3](https://v3.nuxtjs.org/)
-2. [TailwindCSS](https://tailwindcss.com)
-3. [PrimeVue](https://www.primefaces.org/)
+- [Nuxt 3](https://v3.nuxtjs.org/)
+- [TailwindCSS](https://tailwindcss.com)
+- [NaiveUI](https://www.naiveui.com/)
 
 ## 🚧 Setup
 
 1. Install the dependencies.
 
 ```bash
-# yarn
-$ yarn install
-
-# npm
-$ npm install
-
-# pnpm
 $ pnpm install --shamefully-hoist
 ```
 
@@ -33,7 +24,7 @@ $ pnpm dev
 
 3. You will then have the application running under `http://localhost:3000`.
 
-> In addition, you will have a TailwindCSS theme viewer running at `http://localhost:3000/_tailwind`.
+In addition, you will have a TailwindCSS theme viewer running at `http://localhost:3000/_tailwind`.
 
 ## 🏗️ Contribution
 
