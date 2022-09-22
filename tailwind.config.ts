@@ -7,13 +7,13 @@ module.exports = {
   darkMode: 'class',
   presets: [],
   content: [
-    `./components/**/*.{vue,js}`,
-    `./layouts/**/*.vue`,
-    `./pages/**/*.vue`,
-    `./composables/**/*.{js,ts}`,
-    `./plugins/**/*.{js,ts}`,
-    `./App.{js,ts,vue}`,
-    `./app.{js,ts,vue}`,
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './composables/**/*.{js,ts}',
+    './plugins/**/*.{js,ts}',
+    './App.{js,ts,vue}',
+    './app.{js,ts,vue}',
   ],
   theme: {
     extend: {

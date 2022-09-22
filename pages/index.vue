@@ -9,4 +9,7 @@ useHead({
 })
 </script>
 
-<template>Welcome! <NButton>BTN</NButton></template>
+<template>
+  <div>Welcome!</div>
+  <NButton>BTN</NButton>
+</template>
