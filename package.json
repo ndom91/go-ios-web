@@ -2,7 +2,7 @@
   "name": "go-ios-web",
   "description": "Go-iOS Web App",
   "author": [
-    "daneilpaulus",
+    "danielpaulus",
     "ndom91 <yo@ndo.dev>"
   ],
   "version": "0.0.1",
@@ -24,7 +24,6 @@
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@nuxtjs/tailwindcss": "^5.3.3",
-    "@vueuse/nuxt": "^9.1.1",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^3.2.0",
@@ -34,8 +33,7 @@
     "nuxt": "3.0.0-rc.11",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "simple-git-hooks": "^2.8.0",
-    "tailwindcss": "^3.1.8"
+    "simple-git-hooks": "^2.8.0"
   },
   "eslintConfig": {
     "extends": [

@@ -1,15 +1,24 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  presets: [],
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+module.exports = {
   content: [
-    './components/**/*.{vue,mjs,ts}',
-    './layouts/**/*.{vue,mjs,ts}',
-    './pages/**/*.{vue,mjs,ts}',
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.{vue,js,ts}',
+    './pages/**/*.{vue,js,ts}',
     './composables/**/*.{vue,js,ts}',
     './plugins/**/*.{vue,js,ts}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('child', '& > *')
+      addVariant('child-hover', '& > *:hover')
+    },
+  ],
 }
