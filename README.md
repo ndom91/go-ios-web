@@ -8,7 +8,7 @@ Based on the following stack:
 
 1. [Nuxt 3](https://v3.nuxtjs.org/)
 2. [TailwindCSS](https://tailwindcss.com)
-3. [NaiveUI](https://www.naiveui.com)
+3. [PrimeVue](https://www.primefaces.org/)
 
 ## 🚧 Setup
 
@@ -31,7 +31,7 @@ $ pnpm install --shamefully-hoist
 $ pnpm dev
 ```
 
-3. You will then have the application running under `http://localhost:3000`. 
+3. You will then have the application running under `http://localhost:3000`.
 
 > In addition, you will have a TailwindCSS theme viewer running at `http://localhost:3000/_tailwind`.
 
@@ -41,4 +41,4 @@ We are open to most contributions, please open a PR and stick to the projects li
 
 ## 📝 License
 
-MIT 
+MIT

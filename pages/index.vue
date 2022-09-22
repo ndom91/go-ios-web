@@ -1,14 +1,12 @@
 <script setup lang="ts">
+import { NButton } from 'naive-ui'
+
 definePageMeta({
-  layout: 'empty',
+  layout: 'default',
 })
 useHead({
   title: 'go-ios web',
 })
 </script>
 
-<template>
-  <div>
-    <WelcomeComponent />
-  </div>
-</template>
+<template>Welcome! <NButton>BTN</NButton></template>

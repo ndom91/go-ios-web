@@ -1,8 +1,10 @@
 <template>
-  <main class="flex">
+  <main class="flex h-full w-full max-w-7xl mx-auto">
+    <aside class="flex flex-col h-full">
+      <Nav />
+    </aside>
     <slot />
   </main>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
